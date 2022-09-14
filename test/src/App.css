@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  height: 100vh;
+  background-color: lightblue;
 }
 
 .App-logo {
@@ -24,17 +26,48 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
-
   to {
     transform: rotate(360deg);
   }
+} 
+#div1 {
+  background-image: url("https://www.soyvisual.org/sites/default/files/styles/facebook_og/public/images/photos/col_0011.jpg?itok=6ItgLGiU");
+  background-size: contain;
+  height: 6em;
+  background-repeat: no-repeat;
+  
+}
+#div2 {
+  margin-right: 40px;
+  padding-right: 20px;
+  font-size: 40px;
+}
+#parrafo1 {
+  color: gray;
+} 
+.icons {
+  margin-right: 250px;
+  margin-left: 10px;
+  color: lightslategray;
+}
+#div3 {
+  background-image: url("https://www.soyvisual.org/sites/default/files/styles/facebook_og/public/images/photos/col_0011.jpg?itok=6ItgLGiU");
+  background-size: contain;
+  height: 6em;
+  background-repeat: no-repeat;
+}
+#nav {
+  height: 120px;
+}
+#div6 {
+  margin-right: 40px;
+  padding-right: 20px;
+  font-size: 30px;
+  margin-left: 10px;
+  margin-bottom: 5px;
 }
 
