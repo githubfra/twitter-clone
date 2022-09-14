@@ -1,7 +1,7 @@
 import React from "react";
 
 function Footer () {
-    return <div className="text-white bg-dark p-2 text-centerclass navbar-fixed-bottom">
+    return <div className="text-dark bg-light p-2 text-center navbar-fixed-bottom">
         <p>Copyright @YourWebsite 2019</p>
     </div>
 }

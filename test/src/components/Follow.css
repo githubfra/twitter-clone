@@ -1,22 +1,26 @@
 .card {
-    width: 18rem;
+  width: 40rem;
+  margin-top: 10%;
 
 
 }
 
 img {
-       height: 30px;
- 
-  }
-Footer {
-   
- 
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: red;
-  color: white;
-  text-align: center;
-}
+     height: 30px;
 
+}
+Footer {
+
+
+position: fixed;
+left: 0;
+bottom: 0;
+width: 100%;
+background-color: red;
+color: white;
+text-align: center;
+}
+button {
+color: aqua;
+background-color: aqua;
+}

@@ -5,6 +5,8 @@ import Coment from './components/Coment';
 import Users from './components/Users';
 import Follow from './components/Follow';
 import Footer from './components/Footer';
+import UnFollow from './components/Unfollow';
+
 
 function App() {
   return (
@@ -13,15 +15,24 @@ function App() {
       <Navbar />
       <div className='container-fluid'>
         <div className='row'>
-        <div class="col-6"><Coment /></div>
+          <div class="col-6"><Coment /></div>
           <div class="col-6"><Follow /></div>
         </div>
-        <div className='col-6'><Users /> </div>
-        <div className='col-12'> <Footer /></div>
-        
       </div>
-    </div>
-  );
+
+
+        <div className='container-fluid'>
+          <div className='row'>
+            <div className='col-6'><Users /> </div>
+            <div className='col-6'> <UnFollow /> </div>
+          </div>
+
+
+
+          <div className='col-12'> <Footer /></div>
+        </div>
+      </div>
+      );
 }
 
-export default App; 
+      export default App; 
